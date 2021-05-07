@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BarChart fx:id="winsChart" layoutX="1.0" layoutY="68.0" prefHeight="318.0" prefWidth="600.0">
+        <xAxis>
+          <CategoryAxis fx:id="y" label="Username" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="wins" side="LEFT" fx:id="x" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="231.0" layoutY="19.0" text="Number of wins">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="backBtn" layoutX="39.0" layoutY="18.0" mnemonicParsing="false" text="Back" />
+   </children>
+</Pane>

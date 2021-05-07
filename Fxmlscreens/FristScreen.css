@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 4, 2021, 11:48:19 PM
+    Author     : Aya
+*/
+
+@font-face {
+    font-family: 'walterturncoat';
+    src: url('/Fxmlscreens/walterturncoat.ttf');
+}
+
+#root{
+    
+    -fx-background-image: url("/Images/Home.jpg"); 
+    -fx-background-repeat: no-repeat;   
+    -fx-background-position: center center;
+    -fx-background-size:cover;
+     
+}
+
+#tictactoe{
+   -fx-text-fill:#000000;
+   -fx-font-family: "Walter Turncoat";
+   -fx-font-size: 30px;
+
+}
+#tictactoe2{
+   -fx-text-fill:#000000;
+   -fx-font-family: "Walter Turncoat";
+   -fx-font-size: 20px;
+
+}
+#BackToMain{
+    -fx-background-color: linear-gradient(to left, rgba(253, 253, 253, 0) -13.23%, #99C056 18.23%, #99C056 74.23%, rgba(249, 249, 249, 0.6) 107.57%);
+    -fx-border-radius: 22px;
+    -fx-alignment: BASELINE_CENTER;
+    -fx-background-radius: 22px;
+    -fx-font-size: 20px;
+    -fx-text-fill:#FFFFFF
+}
+
+#back{
+    -fx-background-color: linear-gradient(to left, rgba(285, 255, 205, 0.82) -3.46%, rgba(208, 117, 80, 0.82) 19.17%, rgba(255, 101, 105, 0.82) 74.13%, rgba(255, 255, 255, 0.82) 100%);
+    -fx-border-radius: 22px;
+    -fx-alignment: BASELINE_CENTER;
+    -fx-background-radius: 22px;
+    -fx-font-size: 20px;
+    -fx-text-fill:#FFFFFF
+}

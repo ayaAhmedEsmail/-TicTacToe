@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package tictactoe;
+
+import javafx.scene.control.Label;
+
+/**
+ *
+ * @author Nada
+ */
+public class Message {
+
+    String Player;
+    Label label;
+
+    public Message(String P, Label l) {
+        Player = P;
+        label = l;
+    }
+   public  Message() {
+        Player = null;
+        label = null;
+    }
+}

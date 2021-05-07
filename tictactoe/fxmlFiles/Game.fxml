@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="43.0" layoutY="127.0" prefHeight="252.0" prefWidth="515.0" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="42.0" AnchorPane.topAnchor="120.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="217.0" minWidth="10.0" prefWidth="188.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="119.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.0" minWidth="10.0" prefWidth="156.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="269.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="178.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="43.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="83.0" minHeight="10.0" prefHeight="83.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="55.0" minHeight="0.0" prefHeight="5.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="64.0" minHeight="9.0" prefHeight="59.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="label1" opacity="0.0" prefHeight="89.0" prefWidth="212.0">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label2" opacity="0.0" prefHeight="111.0" prefWidth="215.0" GridPane.columnIndex="2">
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label3" opacity="0.0" prefHeight="88.0" prefWidth="204.0" text="O" GridPane.columnIndex="4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label4" opacity="0.0" prefHeight="92.0" prefWidth="210.0" GridPane.rowIndex="2">
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label5" opacity="0.0" prefHeight="87.0" prefWidth="210.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label6" opacity="0.0" prefHeight="83.0" prefWidth="177.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <padding>
+                  <Insets left="80.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label7" opacity="0.0" prefHeight="53.0" prefWidth="217.0" GridPane.rowIndex="4">
+               <padding>
+                  <Insets left="90.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label8" opacity="0.0" prefHeight="76.0" prefWidth="151.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <padding>
+                  <Insets left="60.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label9" opacity="0.0" prefHeight="49.0" prefWidth="169.0" text="O" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <padding>
+                  <Insets left="80.0" top="10.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Line endX="457.29290771484375" endY="-1.0003780126571655" startX="985.5858154296875" startY="-0.9995685815811157" GridPane.rowIndex="1" />
+            <Line endX="584.5" startX="58.0" GridPane.rowIndex="3" />
+            <Line endX="-108.72947692871094" endY="150.13589477539062" startX="-108.72846984863281" startY="-124.93257141113281" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Line endX="-111.0" endY="304.0" startX="-111.0" startY="27.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Text fx:id="player1Text" layoutX="129.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" AnchorPane.bottomAnchor="340.2275390625" AnchorPane.leftAnchor="129.0" AnchorPane.rightAnchor="390.994140625" AnchorPane.topAnchor="29.1806640625">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fx:id="player2Text" layoutX="444.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2" AnchorPane.leftAnchor="444.0" AnchorPane.rightAnchor="75.994140625" AnchorPane.topAnchor="27.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#3700ff" layoutX="161.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" AnchorPane.leftAnchor="161.0" AnchorPane.rightAnchor="425.43359375" AnchorPane.topAnchor="60.1806640625">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#e80101" layoutX="475.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O" AnchorPane.bottomAnchor="305.2275390625" AnchorPane.leftAnchor="475.0" AnchorPane.rightAnchor="107.66015625" AnchorPane.topAnchor="64.1806640625">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
